@@ -1,0 +1,35 @@
+﻿  Actor.cpp
+  Ball.cpp
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(23,18): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(24,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(26,14): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(26,39): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(27,14): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(27,39): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(35,18): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(36,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(38,14): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(38,39): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(39,14): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(39,39): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(80,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Ball.cpp(80,25): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  Component.cpp
+  DrawComponent.cpp
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(8,9): warning C4838: 从“float”转换到“int”需要收缩转换
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(8,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(9,9): warning C4838: 从“float”转换到“int”需要收缩转换
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(9,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(10,7): warning C4838: 从“float”转换到“int”需要收缩转换
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(10,7): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(11,7): warning C4838: 从“float”转换到“int”需要收缩转换
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\DrawComponent.cpp(11,7): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  Game.cpp
+  InputMoveComponent.cpp
+  main.cpp
+  MoveComponent.cpp
+  Paddle.cpp
+  Wall.cpp
+D:\code_pro\VS_cmake_proj\GAMES_diy\game_01\Pong\Wall.cpp(63,13): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+  game_01.vcxproj -> D:\code_pro\Game-cpp-master\game_01\x64\Debug\Pong.exe

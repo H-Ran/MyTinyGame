@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\Game游戏主进程">
+      <UniqueIdentifier>{ac2f439c-2acf-4569-ba78-6df87dbe4e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Actor游戏角色">
+      <UniqueIdentifier>{51cdbc0f-fbff-4af8-a05b-0dfd4eabee0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Component组件">
+      <UniqueIdentifier>{8700436a-04d3-4cb3-b96a-ff89d16dc17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Component组件\Renderer渲染组件">
+      <UniqueIdentifier>{cf3b9428-c721-4a38-a152-748903fed4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Math数学运算">
+      <UniqueIdentifier>{404d3d3d-5069-4b82-bc25-4fede4388959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Game游戏主进程">
+      <UniqueIdentifier>{5dcf7d7f-4350-4f67-9d06-c35b3b495436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Component组件">
+      <UniqueIdentifier>{72005b95-00b5-4e5d-9178-7279fa358ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Math数学运算">
+      <UniqueIdentifier>{4599b188-b8c0-4988-af50-be26a7de9074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ActorObject游戏角色">
+      <UniqueIdentifier>{d7c7b8ac-3c12-48a8-9929-f9d2aec15c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Component组件\Sprite">
+      <UniqueIdentifier>{e7cadd78-93ea-4759-bbc8-914de3dd1437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Component组件\MoveBehavior">
+      <UniqueIdentifier>{f7d95b0c-b69e-4166-b663-bd97642fa2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Component组件\MoveBehavior\InputBehavior">
+      <UniqueIdentifier>{84b35951-4518-45de-9c1c-c8e0414d3b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Component组件\MoveBehavior">
+      <UniqueIdentifier>{58da3562-45d6-4b74-a6e4-39ea98a50a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Component组件\Sprite">
+      <UniqueIdentifier>{30928d55-33a2-4e82-bb31-c30b8024d986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Component组件\Renderer">
+      <UniqueIdentifier>{53fb6e75-bb0c-4577-abae-9a4b0b1d9f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Component组件\MoveBehavior\InputBehavior">
+      <UniqueIdentifier>{bf276faf-fd7b-4d01-8011-5f00396ac92a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GameObject\GameObject.h">
+      <Filter>头文件\Actor游戏角色</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\ActorState.h">
+      <Filter>头文件\Actor游戏角色</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\math.h">
+      <Filter>头文件\Math数学运算</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameMain\Context\ActorContext.h">
+      <Filter>头文件\Game游戏主进程</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameMain\Game.h">
+      <Filter>头文件\Game游戏主进程</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameMain\Context\RendererContext.h">
+      <Filter>头文件\Game游戏主进程</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Component.h">
+      <Filter>头文件\Component组件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\MoveBehavior\MoveComponent.h">
+      <Filter>头文件\Component组件\MoveBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Input\InputComponent.h">
+      <Filter>头文件\Component组件\MoveBehavior\InputBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Sprite\SpriteComponent.h">
+      <Filter>头文件\Component组件\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\MoveBehavior\InputBehavior\InputBehaviorComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameMain\Context\WindowContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ActorObject\Actor.cpp">
+      <Filter>源文件\ActorObject游戏角色</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\math.cpp">
+      <Filter>源文件\Math数学运算</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain\ActorContext.cpp">
+      <Filter>源文件\Game游戏主进程</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain\Game.cpp">
+      <Filter>源文件\Game游戏主进程</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain\Main.cpp">
+      <Filter>源文件\Game游戏主进程</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain\RendererContext.cpp">
+      <Filter>源文件\Game游戏主进程</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Component.cpp">
+      <Filter>源文件\Component组件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\MoveBehavior\Input\InputComponent.cpp">
+      <Filter>源文件\Component组件\MoveBehavior\InputBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\MoveBehavior\MoveComponent.cpp">
+      <Filter>源文件\Component组件\MoveBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Sprite\SpriteComponent.cpp">
+      <Filter>源文件\Component组件\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain\WindowContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

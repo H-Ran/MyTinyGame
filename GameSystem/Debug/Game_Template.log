@@ -1,0 +1,19 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(初始模板.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  ActorContext.cpp
+  Game.cpp
+  RendererContext.cpp
+  WindowContext.cpp
+  正在生成代码...
+  Game_Template.vcxproj -> D:\code_pro\Game-cpp-master\初始模板\bin\StartGame.exe
+  D:\code_pro\Game-cpp-master\初始模板\\lib\libfreetype-6.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\libogg-0.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\libpng16-16.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\libvorbis-0.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\libvorbisfile-3.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\SDL2.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\SDL2_image.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\SDL2_mixer.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\SDL2_ttf.dll
+  D:\code_pro\Game-cpp-master\初始模板\\lib\zlib1.dll
+  复制了 10 个文件

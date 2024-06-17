@@ -1,0 +1,17 @@
+﻿DrawComponent.obj : error LNK2001: 无法解析的外部符号 _SDL_RenderFillRect
+DrawComponent.obj : error LNK2001: 无法解析的外部符号 _SDL_SetRenderDrawColor
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_GetKeyboardState
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_Log
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_RenderClear
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_DestroyRenderer
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_Init
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_DestroyWindow
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_GetError
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_Quit
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_PollEvent
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_GetTicks
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_CreateRenderer
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_RenderPresent
+Game.obj : error LNK2001: 无法解析的外部符号 _SDL_CreateWindow
+MSVCRT.lib(exe_main.obj) : error LNK2001: 无法解析的外部符号 _main
+D:\code_pro\Game-cpp-master\game_01\Release\Pong.exe : fatal error LNK1120: 16 个无法解析的外部命令
